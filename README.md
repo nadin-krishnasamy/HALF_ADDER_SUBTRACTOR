@@ -53,9 +53,16 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-
-module exp3(a, b, x, y, sum, car, dif, bor); input a, b, x, y; output sum, car, dif, bor; assign sum = a ^ b; assign car = a & b; assign dif = x ^ y; assign bor = ~x & y; endmodule
-
+```
+module exp3(a, b, x, y, sum, car, dif, bor);
+input a, b, x, y;
+output sum, car, dif, bor;
+assign sum = a ^ b;
+assign car = a & b;
+assign dif = x ^ y;
+assign bor = ~x & y;
+endmodule
+```
 Developed by: NADIN KRISHNASAMY B RegisterNumber: 25016795
 
 **RTL Schematic**
